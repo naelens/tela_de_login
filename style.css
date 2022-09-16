@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;600;800;&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url("imagemfundo2.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.conteudoLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 60vh;
+  border-radius: 10px;
+  background-color: #000000;
+  background-image: linear-gradient(225deg, #000000 0%, #7010b9 100%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: 800;
+  color: #F7F2F5;
+}
+
+.textfield {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+
+.textfield > label {
+  font-size: 15px;
+  font-weight: 600;
+  color: #E3DBE9;
+  margin: 0 0 5px 0;
+}
+
+.textfield > input {
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #CFBFDA;
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.textfield > input::placeholder {
+  color: #f0ffffd2;
+}
+
+input:hover{
+    color: black;
+    font-weight: 600;
+}
+
+textarea:focus, input:focus {
+    border: 0 none;
+    outline: none;
+} 
+
+.botao {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 10px 0 0 0;
+  padding: 12px;
+  color: #E3DBE9;
+  background-color: #220734;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #000000b9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  
+}
